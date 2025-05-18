@@ -79,3 +79,23 @@ FitnessFusion Protocol is designed to incentivize and reward fitness activities 
 
 ;; View your NFT achievement badges
 (contract-call? .fitness-fusion get-user-badges tx-sender)
+;; View platform statistics
+(contract-call? .fitness-fusion get-platform-stats)
+
+Getting Started
+
+1. Deploy the FitnessFusion contract to a Stacks blockchain node
+2. Start your first workout by calling `start-workout`
+3. Complete the workout after the required intensity
+4. Build your streak by completing workouts daily
+5. Claim or lock your rewards in challenges
+6. View and manage your NFT achievement badges
+
+Future Development
+
+- Integration with fitness tracking devices and apps
+- Expansion of workout types and specialized fitness paths
+- Community challenges and group fitness activities
+- Enhanced NFT metadata with visual representations of achievements
+- Cross-platform fitness credential verification
+- Marketplace for trading achievement badges
